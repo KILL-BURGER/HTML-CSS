@@ -37,3 +37,12 @@ text-align : 정렬 (left, center, right)
 margin : 내 영역 밖에 공간을 줌 (top, left, right, bottom)
 padding: 내 영역 안에서 공간을 줌 (top, left, right, bottom)
 
+
+## Chapter04
+
+-- CDN 이란?
+CDN(Content Delivery Network)은 지리적으로 분산된 여러 개의 서버입니다.
+웹 콘텐츠를 사용자와 가까운 곳에서 전송함으로써 속도를 높이는 방식입니다.
+전 세계 데이터센터는 파일 복사본을 임시로 저장하는 프로세스인 캐싱을 사용.
+따라서 사용자는 가까운 서버를 통해 웹 활성화 디바이스 또는 브라우저에서 인터넷 콘텐츠에 빠르게 접속가능.
+CDN은 웹 페이지, 이미지, 비디오 등의 콘텐츠를 사용자의 물리적인 위치와 가까운 프록시 서버에서 캐싱
