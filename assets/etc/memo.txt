@@ -46,3 +46,31 @@ CDN(Content Delivery Network)은 지리적으로 분산된 여러 개의 서버�
 전 세계 데이터센터는 파일 복사본을 임시로 저장하는 프로세스인 캐싱을 사용.
 따라서 사용자는 가까운 서버를 통해 웹 활성화 디바이스 또는 브라우저에서 인터넷 콘텐츠에 빠르게 접속가능.
 CDN은 웹 페이지, 이미지, 비디오 등의 콘텐츠를 사용자의 물리적인 위치와 가까운 프록시 서버에서 캐싱
+
+
+## Chapter05
+
+-- static
+웹사이트의 기본 속성값, top right bottom left 등 위치 속성은 무시.
+
+-- relative
+HTML 태그가 있는 위치에서 left right top bottom 값을 통해 움직임(있는자리 기준에서 위치를 옮김)
+
+-- absolute
+부모영역에서 left right top bottom 을 이용해 주어진 위치로 움직임(부모 절대값 기준으로 옮김)
+
+* 단! 여기서 부모란?: 부모 태그가 relative, absolute, fixed 속성 중 하나여야 함.
+ 만약 부모태그가 해당 속성을 가지고있지 않다면 body태그 기준으로 움직임 왜냐하면 body태그는 relative를 기본 속성으로 가지고 있기 때문이다
+
+-- fix
+absolute 와 비슷하지만 스크롤로 내려도 그 위치에 고정, 무조건 브라우저 창 기준
+
+-- sticky
+relative 와 비슷하지만 스크롤로 내리면 fixed 처럼 위치에 고정
+
+-- flex box 특징
+1. display: flex 는 모든 요소를 가로로 둔다.
+2. display: flex 는 부모한테 적용을 하고 자손을 컨트롤 한다.
+3. justify-content: 가로로 요소들을 움직인다.
+4. align-items: 세로로 요소들이 움직인다.
+5. flex-direction:column : 가로로 정렬된 요소를 세로로 바꾸고 justify-content 는 세로로 align-items 는 가로로 방향으로 바뀐다.
