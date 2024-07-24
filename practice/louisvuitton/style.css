@@ -1,0 +1,64 @@
+.btn-outline-success {
+    border: 1px solid chocolate;
+    color: chocolate;
+}
+
+.btn-outline-success:hover {
+    border: 1px solid chocolate;
+    color: white;
+    background-color: chocolate;
+}
+
+.campaign-section {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.button-style {
+    background-color: black;
+    color: white;
+    padding: 0.3rem;
+}
+
+footer {
+    background-color: #19110b;
+    font-size: 14px;
+}
+
+.first-line {
+    color: white;
+    border-bottom: 1px solid #392d23;
+}
+
+.second-line {
+    color: white;
+}
+
+.second-line a {
+    text-decoration: none;
+    color: white;
+}
+
+.third-line {
+    display: none;
+    color: white;
+}
+
+@media screen and (max-width: 48rem) {
+    .first-line {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .second-line {
+        padding: 0 2rem;
+        border-bottom: 1px solid #392d23;
+
+    }
+
+    .third-line {
+        display: block;
+    }
+}
